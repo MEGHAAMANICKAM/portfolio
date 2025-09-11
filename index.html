@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meghaa M | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">Meghaa M</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="photo-1.jpg" alt="Meghaa Photo" class="profile-pic">
+      <h2>Hi, I'm <span class="highlight">Meghaa</span></h2>
+      <h3>I am a <span class="typing"></span></h3>
+      <p>Passionate about cloud automation, scalable systems, and DevOps practices.</p>
+      <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a motivated and detail-oriented B.Tech student in Information Technology specializing in Cloud Computing & DevOps. 
+       Skilled in AWS, Docker, Kubernetes, and CI/CD pipelines, I have built real-world projects like MedCycle (an AI-powered medicine redistribution platform) 
+       and a Serverless To-Do List App using AWS Lambda, API Gateway, and DynamoDB. </p>
+    <p>Beyond academics, I enjoy solving real-world problems through hackathons, experimenting with automation, and building creative solutions that merge innovation with social good. 
+       My goal is to become a Cloud/DevOps Engineer and contribute to designing secure, scalable, and resilient systems for modern applications.</p>
+  </section>
+
+<!-- Skills Section -->
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/amazon-web-services.png" alt="AWS">
+      <h3>AWS</h3>
+      <p>EC2, S3, IAM, VPC, CloudWatch</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/docker.png" alt="Docker">
+      <h3>Docker & Kubernetes</h3>
+      <p>Containerization & Orchestration</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/jenkins.png" alt="Jenkins">
+      <h3>CI/CD</h3>
+      <p>Jenkins, GitHub Actions, Maven</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/python.png" alt="Python">
+      <h3>Programming</h3>
+      <p>Java, Python, Bash, JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/linux.png" alt="Linux">
+      <h3>Operating Systems</h3>
+      <p>Linux (Ubuntu), Windows</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>Weather Forecasting System with Chatbot</h3>
+          <p>AI chatbot integrated with weather models to help farmers make informed crop decisions.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>MedCycle – AI-Powered Medicine Redistribution</h3>
+          <p>Full-stack app for medicine donation with AI/manual verification, sender/receiver roles, and admin panel.</p>
+          <a href="https://github.com/MEGHAAMANICKAM" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>Serverless To-Do List App</h3>
+          <p>Built using AWS Lambda, API Gateway, DynamoDB, and S3. Includes authentication and CRUD operations.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Certifications Section -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certs-grid">
+    <div class="cert-card">
+      <img src="https://img.icons8.com/color/96/amazon-web-services.png" alt="AWS">
+      <h3>AWS Certified Cloud Practitioner</h3>
+      <p>Amazon Web Services</p>
+    </div>
+    <div class="cert-card">
+      <img src="https://img.icons8.com/color/96/linux.png" alt="Linux Foundation">
+      <h3>Introduction to Linux</h3>
+      <p>The Linux Foundation</p>
+    </div>
+    <div class="cert-card">
+      <img src="https://img.icons8.com/color/96/jenkins.png" alt="Jenkins">
+      <h3>Introduction to Jenkins</h3>
+      <p>The Linux Foundation</p>
+    </div>
+    <div class="cert-card">
+      <img src="https://img.icons8.com/color/96/amazon-web-services.png" alt="AWS Educate">
+      <h3>AWS Educate Cloud Computing 101</h3>
+      <p>Amazon Web Services</p>
+    </div>
+    <div class="cert-card">
+      <img src="https://img.icons8.com/color/96/amazon-web-services.png" alt="AWS Badge">
+      <h3>AWS Cloud Essentials Badge</h3>
+      <p>Amazon Web Services</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Meghaa M | Built with ❤️ using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
